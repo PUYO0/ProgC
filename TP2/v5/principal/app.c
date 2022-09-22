@@ -10,7 +10,8 @@ static void iterate(int first, int step, int size)
 
     while (size-- > 0)
         printf("%d,", generator_get_next());
-}
+} 
+
 int main(int argc, char **argv)
 {
     long int max = argc > 1 ? strtol(argv[1], NULL, 10) : 1;
